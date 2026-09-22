@@ -1,0 +1,12 @@
+{
+  "PORT": {
+    "defaultValue": "8080",
+    "description": "Port Gatus listens on (default: 8080). Must match Railway's PORT.",
+    "isOptional": true
+  },
+  "CONFIG_PATH": {
+    "defaultValue": "/data/config.yaml",
+    "description": "Path to the Gatus config file (default: /data/config.yaml).",
+    "isOptional": true
+  }
+}
