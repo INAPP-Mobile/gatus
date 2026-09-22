@@ -1,6 +1,6 @@
 # Deploy and Host
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/gatus)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/I4-VFG)
 
 ![Gatus OG Image](https://raw.githubusercontent.com/INAPP-Mobile/gatus/master/og-image.svg)
 
