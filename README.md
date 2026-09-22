@@ -30,6 +30,14 @@ Gatus runs as a single Docker container on port 8080. Railway provides compute, 
 - **Incident detection** — Get notified before your users notice.
 - **Multi-region monitoring** — Deploy multiple instances to check from different locations.
 
+## Dependencies for Gatus
+
+### Deployment Dependencies
+
+- **Volume (required)** — A Railway Volume must be mounted at `/data`. Gatus stores its YAML configuration, SQLite database, and status history there. Without it, all monitoring data is lost on every restart.
+- **No external services** — Gatus embeds SQLite and has no companion database, cache, or queue dependency. A single service with one volume is the complete deployment.
+- **Outbound network access** — Gatus needs egress to reach the endpoints it monitors and to send alerts (Slack, Discord, email, webhooks). Railway provides this by default.
+
 ## Configuration
 
 Gatus is configured via a YAML config file at `/data/config.yaml`. On first launch, Gatus auto-generates a default config with sensible defaults. You can edit the config through the web UI or by editing the file directly.
