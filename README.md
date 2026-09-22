@@ -2,7 +2,7 @@
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/gatus)
 
-![Gatus OG Image](https://raw.githubusercontent.com/INAPP-Mobile/gatus/main/og-image.svg)
+![Gatus OG Image](https://raw.githubusercontent.com/INAPP-Mobile/gatus/master/og-image.svg)
 
 Gatus is a beautiful, lightweight uptime monitoring dashboard. Deploy it on Railway in minutes to monitor your endpoints and get instant alerts when something goes down.
 
