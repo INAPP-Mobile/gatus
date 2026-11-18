@@ -1,4 +1,4 @@
-FROM docker.io/twinproduction/gatus:latest
+FROM docker.io/twinproduction/gatus:v5.38.0
 
 LABEL org.opencontainers.image.source="https://github.com/INAPP-Mobile/gatus"
 
